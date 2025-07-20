@@ -10,7 +10,7 @@ spring:
       max-size: 20
       max-idle-time: 30m
       max-life-time: 60m
-      #validation-query: SELECT 1
+      validation-query: SELECT 1
 
 management:
   ######### Prometheus Config #########
